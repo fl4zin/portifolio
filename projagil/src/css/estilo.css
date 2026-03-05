@@ -1,0 +1,112 @@
+body{
+    background-color: #282828;
+    color: #fff;
+}
+.cabecalho{
+    height: 85px;
+    background-color: #ff6a00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:140px 600px 80px 1px;
+    border-bottom: 60px solid #00146e;
+}
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+}
+.cabecalho .nome {
+    display: flex;
+    gap: 300000000000px;
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight:bold ;
+    font-size: 130px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cabecalho .redes{
+    font-size: 28px;
+  
+    text-transform: uppercase;
+   
+}
+
+.cabecalho .redes li a{
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    
+    
+}
+
+.png-insta{
+    width: 12px;
+}
+.png-face{
+    width: 16px;
+}
+.png-zap{
+    width: 12px;
+}
+
+.home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+.home::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 87%);
+}
+.home .imagem-fundo{
+    width: 100%;
+    object-fit: cover;
+}
+.home .informacoes{
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    padding: 80px 80px 80px 17px;
+    max-width: 780px;
+}
+
+
+
+.home .informacoes .texto{
+
+    font-size: 25px;
+    font-style: oblique;
+}
+
+
+.home .servicos {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction:column;
+    justify-content:end;
+    gap: 45px;
+    padding: 60px 80px 1px;
+    max-width: 780px;
+}
+
+
+
+
+.home .servicos-gerais{
+ color: #282828;
+ margin: 800px;
+ padding: 30px;
+ gap: 10px;
+ font-size: px;
+ align-items: center;
+}

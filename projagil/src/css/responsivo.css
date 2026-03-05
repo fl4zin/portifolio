@@ -1,0 +1,164 @@
+@media ( max-width: 3800px){
+    .home .informacoes{
+        width: 150%;
+        font-size: 35px;
+    }
+   .servicos-gerais{
+    width: 100%;
+    font-size: 45px;
+    padding: 10px;
+   }
+    .h2{
+        font-size: 60px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:1024px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction:row ;
+        padding: 1px;
+        gap:0px;
+    }
+    .cabecalho .logo{
+        width:13%;
+        padding: 1px;
+        flex-direction:column;
+      }
+      .cabecalho .nome{
+        justify-content: center;
+        width: 100%;
+        padding: 0,5px;
+      }
+    
+    .home .informacoes{
+        width: 100%;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .titulo{
+        justify-content: center;
+    }
+    .h2{
+        font-size: 50px;
+    }
+    .servicos-gerais{
+        width: 100%;
+        font-size:35px;
+        padding: 90px;
+        gap: 1px;
+    } 
+}
+@media (max-width: 768px){
+  .cabecalho .redes{
+   padding: 15px;
+  }
+  .cabecalho .nome{
+    font-size: 30px;
+    
+  }
+.cabecalho .logo{
+    width: 140px;
+    padding: 1px;
+}
+.informacoes{ 
+    justify-content: center;
+   gap: 15px;
+}
+   .btn-comprar{
+    width: 35%;
+   }
+   .servicos-gerais{
+    width: 100%;
+    font-size: 24px;
+    gap: 1px;
+    padding: 1px;
+}
+.perfil{
+    width: 20px;
+}
+}
+@media (max-width:425px){
+    .cabecalho .logo{
+     width: 34%;
+
+    }
+    .cabecalho .nome{
+        font-size: 20px;
+    }
+    .cabecalho .redes{
+        gap: 10px;
+        padding: 1px;
+    }
+    .home .informacoes .texto{
+        font-size: 13px;
+        padding: 1px ;
+    }
+
+    .btn-comprar{
+        width: 20% ;
+        font-size: 15px;
+        padding: 1px;
+    }
+    .compre-ja{
+      width:100% ;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+     .servicos-gerais{
+        font-size: 10px;
+        padding: 1px;
+        gap: 1px;
+    
+    }
+    
+    #font{
+        font-size: 10px;
+    }
+    .perfil{
+        width: 10px;
+    }
+    .h2maria{
+        font-size: 30px;
+    }
+    .bio{
+        font-size: 15px;
+    }
+}
+@media(max-width:360px){
+    .cabecalho .nome{
+        font-size: 20px;
+        padding: 1px;
+        flex-direction:column;
+    }
+    .cabecalho .logo{
+        width: 40%;
+        padding: 1px;
+    }
+    .cabecalho .redes{
+        padding: 1px;
+        font-size: 10px;
+       gap: 1px;
+       }
+    
+    #png{
+        width: 10px;
+        flex-direction: column;
+        padding: 1px;
+    }
+    #font{
+        font-size: 8px;
+    }
+    .servicos-gerais{
+        padding: 1px;
+        gap: 1px;
+        font-size: 8px;
+    }
+    
+}

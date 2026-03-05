@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsivo.css">
+    <link rel="stylesheet" href="/src/css/fontes.css">
+</head>
+<body class="indexpage">
+    <header class="cabecalho">
+    <button class="menu-toggle" id="menuToggle">☰</button>
+         <nav class="buscar" id="menuBuscar">
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+         </nav>
+         <button class="tema" id="temaBtn" onclick="alternarTema()">🌙</button>
+
+    </header>
+  
+    
+    <section class="home" id="home">
+        <div class="apresentacao">
+            <h1>Bem-vindo</h1>
+                <p>Meu nome é Leandro Fonseca Rocha, sou estudante do 2° semestre do curso de sistemas de informação pela UNEMAT (Universidade do Estado do Mato Grosso).</p>
+                <img src="/src/imagem/eu.jpg" class="perfil" id="perfil">
+        </div>
+         <div class="trajetoria">
+            <h2>Trajetórias na área</h2>
+            <p>Minha primeira experiência com programação foi no final de 2022 meados de 2023, quando comecei a estudar HTML, CSS, FRAMEWORKS e introdução de JavaScript por conta própria. Entretanto com muitas demandas com minha lavoura de maracujá parei meus estudos em agosto do mesmo ano. </p>
+            <p>Atualmente, voltei a fazer os cursos junto com a faculdade e estou me dedicando ao aprendizado de JavaScript para expandir minhas habilidades em desenvolvimento web.</p>
+        </div>
+        <div class="sobre">
+                <h2>Um pouco sobre mim!</h2> 
+                    <p>Tenho 19 anos e nasci na área rural de Nova Canaã do Norte, uma cidade do interior do Mato Grosso. Apesar da minha idade, já possuo um repertório profissional considerável. Durante boa parte da minha vida lidei com manejo de gado. Aos 15 para 16 anos, comecei a trabalhar como ajudante de pedreiro.
+                    Com 16 anos, fui aprovado no processo seletivo para estagiário no Fórum da minha cidade, onde cheguei a iniciar as atividades.</p>
+                    <p> No entanto, permaneci apenas um mês, pois antes mesmo de assumir o cargo comecei a investir no cultivo de maracujá, o que exigiu toda a minha dedicação. Dessa forma, deixei o estágio no Fórum para tocar minha própria lavoura, na qual permaneci até os 18 anos.
+                    Nesse período, conclui o ensino médio e ingressei na faculdade. Atualmente, estou estagiando na área de Tecnologia da Informação na empresa Colonizadora Sinop (Grupo Sinop).</p>
+            </div>
+        </div>   
+       
+    </section>
+    
+        <section class="projetos" id="projetos">
+            <div class="meusprojetos">
+                <h3>Aqui estão alguns dos meus projetos recentes</h3>
+                <div class="proj-agil">
+                    <ul>
+                        <li>1° Projeto: <a href="/projagil/index.html" class="transporte">Site para uma empresa de tansporte</a> </li>
+                    </ul>
+                    <img class="img-agil" src="/src/imagem/print agil.png" alt="">
+                </div>
+                <div class="proj-gta">
+                    <ul>
+                        <li>2° Projeto: <a href="/projetogta/index.html" class="gta">Uma cópia da landing page do site do jogo Grand Theft Auto V</a></li>
+                    </ul>
+                    <img class="img-gta" src="/src/imagem/print gta.png" alt="">
+                </div>
+            </div>
+        </section>
+   
+    <footer class="rodape" id="contato">       
+        <h2 >Contato:</h2>  
+        <div class="redes">
+           <ul>
+                <li>
+                    <a href="mailto: leandrofonsecarocha449@gmail.com">Email</a>
+                    <img src="/src/imagem/email-icon-png-download-icons-logos-emojis-email-icons-2400.png">
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/leandro-fonseca-dev/">Linkedin</a>
+                    <img src="/src/imagem/linkedin-3.png">
+                </li>
+                <li><a href="https://api.whatsapp.com/send/?phone=5566996857905&text&type=phone_number&app_absent=0">+55 (66) 9 9685-7905</a>
+                    <img src="/src/imagem/telefone-logo-transparent-download-4.png">
+                </li>
+                <li>
+                    <a href="https://github.com/fl4zin" >GitHub</a>
+                    <img src="/src/imagem/Github-Logo.png" class="git">
+                </li>
+           </ul>
+        </div>
+    </footer>
+    <script src="src/js/index.js"></script>
+</body>
+</html> 

@@ -1,0 +1,160 @@
+body{
+    background-color: #282828;
+    color: #fff;
+}
+.cabecalho{
+    height: 80px;
+    background-color:  #ff5900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+    height: 80px;
+    padding: 1px 1px 1px 1px;
+}
+.cabecalho .nome{
+    display: flex;
+    gap: 0px;
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight:bold ;
+    font-size: 60px;
+    font-family: 'ChaletComprime';
+}
+.cabecalho .redes{
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .redes li a{
+padding: 10px;
+color: #e8e8e8;
+font-weight: bolder;
+font-size: 15px;
+cursor:footer;
+font-family: 'ChaletComprime';
+}
+.png-insta{
+    width: 10px;
+}
+.png-face{
+    width: 12px;
+}
+.png-zap{
+    width: 12px;
+}
+
+
+.cabecalho .redes li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80vh);
+}
+
+.home::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 50%, transparent 80%);
+}
+.home .imagem-fundo{
+    width: 100%;
+    object-fit: cover;
+}
+.home .informacoes{
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 80px 80px 17px;
+    max-width: 780px;
+    font-family: 'ChaletComprime';
+}
+.home .fot{
+ display: flex;
+}
+
+.compre-ja{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    font-family: 'ChaletComprime';
+}
+
+  
+  .compre-ja .capa{
+    width: 95%;
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #000000 ;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+   padding: 10px;
+   background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 50%, transparent 80%);
+  }
+
+  .btn-comprar{
+    background-color: rgba(255, 111, 0, 0);
+    border: 0.5px solid #ff5900 ;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.titulo{
+ font-size: 70px;
+ font-family: 'ChaletComprime';
+ color: #ff5900;
+}
+.h2{
+    font-size: 35px;
+    font-family: 'ChaletComprime';
+}
+
+#li:hover{
+    border-bottom: 2px solid #ff5900;
+    width: 95%;
+}
+.opa .servicos-gerais{
+    color: #ff5900;
+    position: absolute;
+    cursor:footer;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80vh);
+}
+.dois{
+    position: relative;
+}
+
+.carol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    font-family: 'ChaletComprime';
+}
+

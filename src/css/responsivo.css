@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+   
+   .cabecalho .menu {
+     display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(123, 255, 0);
+        padding: 20px 0;
+        border-bottom: 1px solid #000;
+        animation: fadeIn .3s ease;
+   }
+   .cabecalho .menu ul{
+    flex-direction: column;
+  
+
+}
+.cabecalho .menu a{
+    display: block;
+    padding: 15px ;
+    color: inherit;
+    text-decoration: none;
+    
+}
+.menu.show{
+    display: flex;
+   }
+  
+   .sobre{
+    display: none;
+   }
+    .proj-agil img, .proj-gta img{
+    display: none;
+    }
+    .meusprojetos a:hover{
+        background:transparent;
+        color: inherit;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: black;
+        z-index: 1001;
+    }
+}
+
+@media (max-width:1024px){
+    .meusprojetos a:hover{
+        background:transparent;
+        color: inherit;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/*Não mexi muito no menu do cabeçalho pois irei fazer um menu toggle e precisa do js, e como o senhor ainda não explicou não quis implementar!*/
